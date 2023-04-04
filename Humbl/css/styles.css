@@ -1,0 +1,196 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  background-image: url("../images/1.jpg");
+  background-size: cover;
+  text-align: left;
+
+}
+
+#contact-page {
+  text-align: center;
+  background-color: #F7EFE5;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.resume {
+  font-size: 2rem;
+  color: #404258;
+}
+
+/* headings */
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.main-line{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.title-image {
+  width: 55%;
+  transform: rotate(10deg);
+  margin-left: 27%;
+}
+
+@media (max-width: 991px) {
+  .title-image {
+    transform: rotate(0deg);
+    margin-right: 27%;
+    width: 40%;
+  }
+
+  #title {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .main-line {
+    padding-top: 10px;
+  }
+}
+
+/* navigation-bar */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar {
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+}
+
+.navbar-brand {
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+/* download-button */
+.download-button {
+  margin: 5% 3% 7.5% 0%;
+}
+
+/* features-section */
+#features {
+  padding: 7% 15%;
+  background-color: #FFFBF5;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  /* color:#FB2576; */
+  color: #FF577F;
+  padding-bottom: 7%;
+}
+
+.icon:hover {
+  color: #FB2576;
+}
+
+/* testimonials-section */
+#testimonials {
+  background-color: #ff4c68;
+  color: #fff;
+}
+ .testimonial-text{
+   font-size: 2.5rem;
+ }
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 15%;
+  margin: 21px;
+}
+
+#press {
+  background-color: #ff4c68;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 15px 20px 50px;
+}
+
+/* pricing - section */
+#pricing {
+  padding: 100px;
+  background-color: #FFFBF5;
+}
+.pricing-head{
+  font-size: 3rem;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* call to action */
+
+#cta {
+  background-color: #ff4c68;
+  padding-top: 7%;
+
+}
+
+.cta-head {
+  font-family: "Montserrat";
+  color: #fff;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+/* footer-section */
+#footer {
+  background-color: #fff;
+  padding: 2%;
+}
+
+.fa-instagram {
+  color: #F94892;
+  padding: 20px 15px;
+}
+
+.fa-twitter {
+  color: #00acee;
+  padding: 20px 15px;
+}
+
+.fa-linkedin {
+  color: #0e76a8;
+  padding: 20px 15px;
+}
+
+.fa-envelope {
+  color: #FFD36E;
+  padding: 20px 15px;
+}
